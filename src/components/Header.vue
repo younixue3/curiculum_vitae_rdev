@@ -14,7 +14,7 @@
           <button>FB</button>
           <button>IG</button>
           <button>LinkedIn</button>
-          <button>Github</button>
+          <button>Github</button>ad
         </span>
         <span class="px-2">
           <button class="px-2 bg-yellow-400 text-gray-900 font-medium rounded-full">Contact Me</button>
