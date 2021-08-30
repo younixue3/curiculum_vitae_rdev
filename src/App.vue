@@ -1,10 +1,21 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div class="font-poppins bg-gradient-to-br from-gray-700 via-gray-800 to-gray-900">
+    <Header/>
+    <router-view/>
   </div>
-  <router-view/>
 </template>
+
+<script>
+// @ is an alias to /src
+import Header from '@/components/Header';
+
+export default {
+  name: 'app',
+  components: {
+    Header,
+  }
+}
+</script>
 
 <style>
 #app {
