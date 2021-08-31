@@ -10,11 +10,11 @@
         <button class="font-medium">Contacts</button>
       </div>
       <div class="hidden md:block w-full text-right divide-x-2 divide-gray-500">
-        <span class="space-x-2 px-2">
-          <button>FB</button>
-          <button>IG</button>
-          <button>LinkedIn</button>
-          <button>Github</button>
+        <span class="space-x-3 px-2">
+          <button><font-awesome-icon :icon="['fab', 'facebook']" /></button>
+          <button><font-awesome-icon :icon="['fab', 'instagram']" /></button>
+          <button><font-awesome-icon :icon="['fab', 'linkedin']" /></button>
+          <button><font-awesome-icon :icon="['fab', 'github']" /></button>
         </span>
         <span class="px-2">
           <button class="px-2 bg-yellow-400 text-gray-900 font-medium rounded-full">Contact Me</button>
