@@ -1,5 +1,5 @@
 <template>
-  <div class="font-poppins bg-gradient-to-br from-gray-700 via-gray-800 to-gray-900">
+  <div class="font-poppins bg-gray-800 to-gray-900">
     <Header/>
     <router-view/>
   </div>

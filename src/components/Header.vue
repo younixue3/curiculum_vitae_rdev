@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-opacity-50 bg-gray-700 w-full fixed text-yellow-300">
+  <div class="bg-opacity-50 bg-gray-700 w-full fixed text-yellow-300 z-50">
     <div class="flex justify-around p-3">
       <div class="w-full text-left font-bold">
         LOGO
