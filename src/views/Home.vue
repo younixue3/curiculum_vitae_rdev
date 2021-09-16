@@ -169,7 +169,7 @@
           </div>
         </div>
       </div>
-      <div class="py-20">
+      <div id="portofolio" class="py-20">
         <h1 class="text-4xl text-white font-bold">Projects</h1>
         <div class="grid grid-cols-3 gap-5 mt-14 px-20">
           <div class="relative">
@@ -178,7 +178,36 @@
                 class="opacity-0 hover:opacity-100 hover:bg-opacity-50 absolute h-full w-full top-0 bg-gray-700 text-white text-center p-5">
               <h1 class="text-2xl font-bold text-left">Title</h1>
               <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <a href="#" class="px-2 pt-0.5 border border-white">View</a>
+              <button class="m-auto absolute top-1/2 transform -translate-x-1/2 -translate-y-1/2 px-2 pt-0.5 border border-white"><a class="" href="#">View</a></button>
+              <div class="absolute bottom-0 right-0">
+                VueJs, Laravel, Flutter
+              </div>
+            </div>
+          </div>
+          <div>
+            <img src="@/assets/4849154.jpg">
+          </div>
+          <div>
+            <img src="@/assets/4849154.jpg">
+          </div>
+          <div>
+            <img src="@/assets/4849154.jpg">
+          </div>
+        </div>
+      </div>
+      <div class="py-20">
+        <h1 class="text-4xl text-white font-bold">Certificate</h1>
+        <div class="grid grid-cols-3 gap-5 mt-14 px-20">
+          <div class="relative">
+            <img src="@/assets/4849154.jpg">
+            <div
+                class="opacity-0 hover:opacity-100 hover:bg-opacity-50 absolute h-full w-full top-0 bg-gray-700 text-white text-center p-5">
+              <h1 class="text-2xl font-bold text-left">Title</h1>
+              <p class="text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button class="m-auto absolute top-1/2 transform -translate-x-1/2 -translate-y-1/2 px-2 pt-0.5 border border-white"><a class="" href="#">View</a></button>
+              <div class="absolute bottom-0 right-0">
+                VueJs, Laravel, Flutter
+              </div>
             </div>
           </div>
           <div>
@@ -199,8 +228,19 @@
 <script>
 // @ is an alias to /src
 
+import axios from "axios";
+
 export default {
   name: 'Home',
-  components: {}
+  components: {
+    axios,
+  },
+  data () {
+    return {
+      project: null
+    }
+  },
+  mounted() {
+  }
 }
 </script>

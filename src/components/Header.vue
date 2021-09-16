@@ -5,8 +5,12 @@
         LOGO
       </div>
       <div class="hidden md:block w-full text-center space-x-5">
-        <button class="font-medium">About me</button>
-        <button class="font-medium">Portofolio</button>
+        <a href="#">
+          <button class="font-medium">About me</button>
+        </a>
+        <a href="#portofolio">
+          <button class="font-medium">Portofolio</button>
+        </a>
         <button class="font-medium">Contacts</button>
       </div>
       <div class="hidden md:block w-full text-right divide-x-2 divide-gray-500">
