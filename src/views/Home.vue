@@ -1,4 +1,5 @@
 <template>
+  <Header/>
   <div class="py-2 md:py-20">
     <div class="md:flex mb-36 md:flex-row-reverse text-gray-100 mx-0 md:mx-10">
       <div class="static md:w-1/3 my-2 md:my-20">
@@ -228,12 +229,14 @@
 <script>
 // @ is an alias to /src
 
-import axios from "axios";
+// import axios from "axios";
+import Header from '@/components/Header';
 
 export default {
   name: 'Home',
   components: {
-    axios,
+    // axios,
+    Header,
   },
   data () {
     return {

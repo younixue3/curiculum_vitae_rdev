@@ -1,18 +1,16 @@
 <template>
   <div class="font-poppins bg-gray-800 to-gray-900">
-    <Header/>
     <router-view/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Header from '@/components/Header';
 
 export default {
   name: 'app',
   components: {
-    Header,
+    // Header,
   }
 }
 </script>
