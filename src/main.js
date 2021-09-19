@@ -7,6 +7,7 @@ import { faCode, faPaintBrush,  faPhotoVideo } from '@fortawesome/free-solid-svg
 import { faFacebook, faInstagram, faLinkedin, faGithub, faVuejs, faCss3, faHtml5, faLaravel, faPython, faBootstrap, faJs} from '@fortawesome/free-brands-svg-icons'
 import { faUser } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import './chartjs'
 
 library.add(faCode, faUser,  faFacebook, faInstagram, faLinkedin, faGithub, faVuejs, faCss3, faHtml5, faLaravel, faPython, faBootstrap, faJs, faPaintBrush, faPhotoVideo)
 

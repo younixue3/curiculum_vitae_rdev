@@ -1,6 +1,6 @@
 <template>
   <Header/>
-  <div class="py-2 md:py-20">
+  <div class="py-2 md:py-20 bg-gray-800 to-gray-900">
     <div class="md:flex mb-36 md:flex-row-reverse text-gray-100 mx-0 md:mx-10">
       <div class="static md:w-1/3 my-2 md:my-20">
         <img class="w-full h-full md:w-96 md:h-96 m-auto md:m-0 object-cover"
